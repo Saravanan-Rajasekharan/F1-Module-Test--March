@@ -1,0 +1,698 @@
+*{
+    margin: 0  0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#1C1C1C;
+}
+
+/* ******************* NAVBAR ******************* */
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:18px;
+    margin-left: 19px;
+    margin-right: 22px;
+    background-color:#1C1C1C;
+    height:63px;
+    width:95vw;
+    /*font*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    position: absolute;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+
+}
+
+.flex-items{
+    display: flex;
+}
+
+.nav-items{
+    position: relative;
+    width:10vw;
+    text-align: center;
+    align-self: center;
+    background-color: #1C1C1C;
+    color: #B1A592;
+    border-radius: 50px;
+    left:2px;
+    padding: 13px;
+    border: 1px solid #B1A592;
+    margin-right: 8px;
+}
+
+.company-name{
+    position: relative;
+    width:20vw;
+    text-align: center;
+    align-self: center;
+    color: #B1A592;
+    background-color: #323025;
+    border-radius: 50px;
+    left:4px;
+    padding: 13px;
+    border: 1px solid #B1A592;
+    margin-right:10px;
+}
+
+.contact-now{
+    width: 12vw;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    color: #B1A592;
+    justify-content: end;
+    padding: 13px;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    right:4px;
+}
+
+
+.nav-items:hover{
+    background-color:  #B1A592;
+    color: #333333;
+}
+
+.contact-now:hover{
+    background-color: rgb(95, 79, 48);
+}
+.company-name:hover{
+    background-color: rgb(95, 79, 48);
+}
+
+
+/* ************************ SIDEBAR *********************************** */
+
+
+
+.grid-container{
+    display: grid;
+    position: absolute;
+    width: 98vw;
+    height:85vh;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color:#1C1C1C;;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .item1{
+    grid-row:1/3;
+    height:80vh;
+    width: 38vw;
+
+    background-color: #DFD6C5;
+    border-radius: 30px;
+  }
+
+  .item2{
+    grid-column:2/4 ;
+    height:30vh;
+    width:59vw;
+
+    background-color: #8E886D;
+    border-radius: 30px;
+
+
+  }
+
+  .item3{
+    height: 45vh;
+    width:24vw;
+
+    background-color: #916E58;
+    border-radius: 30px;
+    
+  }
+  .item4{
+    height: 45vh;
+    width:34vw;
+
+    background-color: #B1A48E;
+    border-radius: 30px;
+  }
+
+
+
+ /********************CARDS**********************/
+
+.card > h4{
+    display: flex;
+    width: 125px;
+    font-weight: 400;
+    font-size:15px;
+    padding:2px 15px;
+    color: #323025;
+    border: 1px solid #323025;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left:20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+ .card >h5{
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size:20px;
+    padding: 10px;
+    color: #323025;
+    margin-left:20px;
+    text-decoration: underline;
+
+ }
+
+ hr.line-break{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #DFD6C5;
+ }
+
+ .card-footer>h4{
+    display: flex;
+    width: 125px;
+    font-style: normal;
+    font-weight:400;
+    font-size:18px;
+    padding:2px 15px;
+    color: #323025;
+    line-height: 29px;
+    margin-top: 15px;
+    margin-left:10px;
+    text-align: center;
+    justify-content: center;
+
+ }
+
+ /* Hover animation */
+
+ .palace-img{
+    width:35vw;
+    height:65vh;
+    border-radius: 30px;
+ }
+
+ .img-wrapper {
+      overflow: hidden;
+      box-sizing: border-box;
+      display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+      border-radius: 30px;
+    }
+    
+    .img-wrapper img {
+      display: block; /* Ensures that the image takes up the full size of the wrapper */
+      transition: transform 0.8s ease;
+      border-radius: 30px;
+    }
+    
+    .item1:hover img {
+      transform: scale(1.1);
+    }
+    
+
+
+ /*********************************Card 3 **********************************/
+
+
+ .card>div>p{
+    font-size: 15px;
+    height:175px;
+    overflow: hidden;
+ }
+
+ hr.line-break3{
+    border-bottom: 1px solid #916E58;
+    border-top: 1px solid #333333;
+ }
+
+.portrait-heading{
+    display: flex;
+    margin-left: 20px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    text-decoration-line: underline;
+
+    color: #333333;
+
+}
+
+.portrait-woman{
+    width:22vw;
+    height:15vh;
+    border-radius: 30px;
+    overflow: hidden;
+    box-sizing: border-box; 
+ }
+
+/* Hover animation */
+
+.img-wrap3 {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+    border-radius: 30px;
+  }
+  
+  .img-wrap3 img {
+    display: block; /* Ensures that the image takes up the full size of the wrapper */
+    transition: transform 0.8s ease;
+    border-radius: 30px;
+  }
+  
+  .item3:hover img {
+    transform: scale(1.1);
+  }
+  
+
+
+
+/************************************ Card 2 ********************************/
+
+.flex-cont-card{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.line-break2{
+    position: relative;
+    top:-18px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #8E886D;
+ }
+
+.card-footer2>h4{
+    position: relative;
+    display: flex;
+    top:-8px;
+    width: 125px;
+    font-style: normal;
+    font-weight:400;
+    font-size:18px;
+    padding:2px 15px;
+    color: #323025;
+    line-height: 29px;
+    margin-left:10px;
+    text-align: center;
+    justify-content: center;
+    
+   
+ }
+
+ .bread{
+    width:32vw;
+    height:22vh;
+    border-radius: 30px;
+}
+
+ .img-wrap {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 20px;
+    display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+    border-radius: 20px;
+  }
+  
+  .img-wrap img {
+    display: block; /* Ensures that the image takes up the full size of the wrapper */
+    transition: transform 0.8s ease;
+    border-radius: 20px;
+  }
+  
+  .item2:hover img {
+    transform: scale(1.1);
+  }
+/********************************** card 4 **********************/
+
+
+
+.port-man>div>p{
+    position: relative;
+    font-size: 15px;
+    height:200px;
+    bottom: 100px;
+    overflow: hidden;
+    padding:5px;
+ 
+}
+
+.line-break4{
+    position: relative;
+    bottom: 72px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #B1A592;
+ }
+
+.portrait-heading-man{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    text-decoration-line: underline;
+    color: #333333;
+}
+
+.port-man-card-footer> h4{
+  position: relative;
+  display: flex;
+  top:-60px;
+  width: 125px;
+  font-style: normal;
+  font-weight:400;
+  font-size:18px;
+  padding:2px 15px;
+  color: #323025;
+  line-height: 29px;
+  margin-left:10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.portrait-man{
+    position: relative;
+    
+}
+
+
+/* Hover animation */
+
+.img-wrap4 {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+    border-radius: 100px;
+    position: relative;
+    top:-10vh;
+    right:-10vw;
+  }
+  
+  .img-wrap4 img {
+    display: block; /* Ensures that the image takes up the full size of the wrapper */
+    transition: transform 0.8s ease;
+    border-radius: 100px;
+
+  }
+  
+  .item4:hover img {
+    transform: scale(1.1);
+  }
+  
+/************************************ Media Queries************************** */
+/* 
+ 
+
+ */
+
+
+
+
+
+  /* @media screen and (max-width:700px){
+    .grid-container{
+    display: grid;
+    grid-template-columns:98vw;
+    gap:10px;
+    margin-top: 100px;
+    align-content: center;
+    justify-self: center;
+
+    }
+} */
+
+@media screen and (max-width:600px){
+  .grid-container{
+  display: grid;
+  grid-template-columns:90vw;
+  gap:10px;
+  margin-top:775px;
+  align-content: center;
+  justify-self: center;
+
+  }
+
+  /**************************** Nav Bar *****************************/
+  .nav-items{
+    display: none;
+  }
+  .company-name{
+    position: relative;
+    width:58vw;
+    margin-right:10px;
+}
+.contact-now{
+    width: 23vw;
+    position: relative;
+    padding: 13px;
+    right:4px;
+}
+/**************************** CARD 1 *****************************/
+  .item1{
+    grid-row:1;
+    /* height:80vh; */
+    width: 95vw;
+    margin-top: 100px;
+  }
+  .palace-img{
+    width:90vw;
+    height:65vh;
+    border-radius: 30px;
+ }
+
+ /**************************** CARD 2 *****************************/
+
+ .item2{
+  grid-column:1;
+  height:50vh;
+  width:95vw;
+
+  background-color: #8E886D;
+  border-radius: 30px;
+}
+.bread{
+  position: relative;
+  width:85vw;
+  height:28vh;
+  border-radius: 30px;
+ 
+}
+.flex-cont-card{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.card>div>p{
+  font-size: 15px;
+  height:40px;
+  padding:0 10px;
+}
+
+ /**************************** CARD 3 *****************************/
+
+ .item3{
+  grid-column:1;
+  height:50vh;
+  width:95vw;
+}
+.portrait-woman{
+  width:90vw;
+  height:30vh;
+  border-radius: 30px;
+  overflow: hidden;
+  box-sizing: border-box; 
+}
+
+.women-para{
+  padding:20px;
+}
+
+ /**************************** CARD 4 *****************************/
+
+ .item4{
+  grid-column:1;
+  height:40vh;
+  width:95vw;
+}
+.port-man>div>p{
+  position: relative;
+  font-size: 15px;
+  height:140px;
+  bottom: 100px;
+  overflow: hidden;
+  padding:10px;
+}
+
+.img-wrap4 {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+  border-radius: 100px;
+  position: relative;
+  top:-10vh;
+  right:-30vw;
+}
+
+}
+
+
+@media  (min-width:600px) and (max-width:1100px){
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns:90vw;
+    grid-template-rows: auto auto auto;
+    gap:10px;
+  
+  }
+
+   /**************************** Nav Bar *****************************/
+   .nav-items{
+    display: none;
+  }
+  .company-name{
+    position: relative;
+    width:62vw;
+    margin-right:10px;
+}
+.contact-now{
+    width: 23vw;
+    position: relative;
+    padding: 13px;
+    right:4px;
+}
+
+
+/********************* Card 1 *******************/
+.item1{
+  grid-row:1;
+  width:95vw;
+  height:65vh;
+}
+
+.palace-img{
+  width:92vw;
+  height:50vh;
+}
+
+/********************* Card 2 *******************/
+.item2{
+  grid-column:1;
+  height:38vh;
+  width:95vw;
+
+}
+.bread{
+  position: relative;
+  width:50vw;
+  height:30vh;
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
+.flex-cont-card{
+  display: flex;
+  flex-direction: row;
+}
+.card>div>p{
+  font-size: 15px;
+  height:70pxpx;
+  padding:5px;
+}
+
+.last-card{
+  grid-row: 3;
+ }
+ 
+
+/********************* Card 3 *******************/
+
+.item3{
+  height:62vh;
+  width:44vw;
+}
+
+.portrait-woman{
+  width: 40vw;
+  height:30vh;
+}
+
+.women-para{
+  padding:0 20px;
+}
+
+/********************* Card 4 *******************/
+
+.item4{
+  position: relative;
+  right:46vw;
+  width:50vw;
+  height:62vh;
+}
+
+.port-man>div>p{
+  position: relative;
+  font-size: 15px;
+  height:262px;
+  bottom: 100px;
+  overflow: hidden;
+  padding:50px 20px;
+  
+}
+
+.img-wrap4 {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block; /* Ensures that the wrapper is sized to fit the image */
+  border-radius: 100px;
+  position: relative;
+  top:-10vh;
+  right:-15vw;
+}
+
+
+
+}
+
+@media (min-width:1400px){
+
+  .grid-container{
+    display: grid;
+    position: absolute;
+    width: 1000px;
+    height:85vh;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color:#1C1C1C;;
+    padding: 10px;
+    margin-top: 100px;
+    
+}
+}
+
+
